@@ -14,13 +14,11 @@
     <EmbeddedResource Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <DependentUpon>MainPage.xaml.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="App.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <DependentUpon>App.xaml.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
- 
+
 </Project>
