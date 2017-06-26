@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:XamFormExp"
              x:Class="XamFormExp.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+    <StackLayout>
+        <Label Text="Click the Button to test!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
-
+        <Button Text="Test"
+                x:Name="TestButton"
+                Clicked="TestButton_Clicked"/>
+    </StackLayout>
 </ContentPage>

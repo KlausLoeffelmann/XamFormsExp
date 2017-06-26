@@ -21,4 +21,8 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\XamFormExp.ViewModel\XamFormExp.ViewModel.csproj" />
+  </ItemGroup>
+
 </Project>
